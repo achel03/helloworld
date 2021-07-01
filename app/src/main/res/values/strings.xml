@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Hello World!!!</string>
+    <string name="btn_second">REPLY</string>
+    <string name="etSecond">Enter Your Reply Here</string>
+    <string name="btn_main">SEND</string>
+    <string name="txtHeader">Message Received</string>
+    <string name="etMain">Enter Your Message Here</string>
+    <string name="txtHeader_reply">Reply Received</string>
+
 </resources>

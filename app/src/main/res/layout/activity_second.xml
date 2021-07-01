@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print Message" />
+
+    <TextView
+        android:id="@+id/tvMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print Content" />
+
+    <TextView
+        android:id="@+id/tvMsg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tvMESSAGE" />
+
+    <EditText
+        android:id="@+id/etMsg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnResend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESEND" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기" />
+
+</LinearLayout>

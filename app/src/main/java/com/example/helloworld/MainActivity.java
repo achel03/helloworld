@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int count = 0;
+    //int count = 0;
     TextView textView;
 
     @Override
@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public void onCountClick(View view){
         //메세지 박스 띄우기
         //Toast.makeText(this, "Hello Count...", Toast.LENGTH_SHORT).show();
-        count++;
-        textView.setText(count+"");//문자열 더해주면 자동으로 문자열로 바뀜 와우
+        int count = Integer.parseInt(textView.getText().toString());
+        //count++;
+        textView.setText((count++)+"");//문자열 더해주면 자동으로 문자열로 바뀜 와우
     }
 }
