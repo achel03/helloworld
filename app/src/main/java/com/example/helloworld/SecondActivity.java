@@ -34,6 +34,8 @@ public class SecondActivity extends AppCompatActivity {
         String msg = intent.getStringExtra("msg");
         String msg2 = intent.getStringExtra("msg2");
         tv.setText(msg);
+        tv2 = findViewById(R.id.tvMsg2);
+        tv2.setText(msg2);
 
         String msg3 = intent.getStringExtra("msg3");
         b3.setOnClickListener(new View.OnClickListener() {
@@ -42,11 +44,6 @@ public class SecondActivity extends AppCompatActivity {
                 sendMsg();
             }
         });
-
-        tv2 = findViewById(R.id.tvMsg2);
-
-
-        tv2.setText(msg2);
         tv3 = findViewById(R.id.tvMsg4);
         tv3.setText(msg3);
         et4 = findViewById(R.id.etMsg4);

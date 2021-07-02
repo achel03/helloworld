@@ -11,10 +11,10 @@ import android.widget.TextView;
 
 
 public class MainActivity4 extends AppCompatActivity {
-    public static final int TEXT_REQUEST = 100;
+    public static final int TEXT_REQUEST = 1;
     private static final String LOG_TAG =
             MainActivity4.class.getSimpleName();
-    public static final String EXTRA_MESSAGE ="MESSAGE";
+    public static final String EXTRA_MESSAGE ="com.example.helloworld.extra.msg";
     private TextView tvHeadRp;
     private TextView tvRp;
     private EditText etMsg;

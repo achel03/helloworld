@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity5 extends AppCompatActivity {
 
-    public static final String EXTRA_REPLY = "REPLY";
+    public static final String EXTRA_REPLY = "com.example.helloworld.extra.reply";
     EditText mReply;
     TextView tv;
 
@@ -23,7 +23,6 @@ public class MainActivity5 extends AppCompatActivity {
         String msg = intent.getStringExtra(MainActivity4.EXTRA_MESSAGE);
         tv = findViewById(R.id.txtMsg);
         tv.setText(msg);
-        tv.setVisibility(View.VISIBLE);
         mReply = findViewById(R.id.etSecond);
     }
 
