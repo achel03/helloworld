@@ -31,8 +31,8 @@ public class MainActivity4 extends AppCompatActivity {
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked!");
         Intent intent = new Intent(this, MainActivity5.class);
-        startActivityForResult(intent, TEXT_REQUEST);
         intent.putExtra(EXTRA_MESSAGE, etMsg.getText().toString());
+        startActivityForResult(intent, TEXT_REQUEST); // putExtra 이후 startActivityForResult 순서 중요
     }
     @Override
     public void onActivityResult(int requestCode,
