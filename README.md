@@ -4,7 +4,7 @@
 ## Lab0 : Hello World!!!
 Process 1                  |   
 :-------------------------:|
-![7-1process(1)](./img/Lab0(1).png)
+![7-1process(1)](./img/Lab0.png)
 
 ## Lab1 : Android fundamentals 01.2 Part A:
 Process 1                  |Process 2                  |Process 3    
