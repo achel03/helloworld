@@ -1,5 +1,5 @@
-**helloworld
-**# 2021_1_하계_나의 첫 안드로이드 앱
+**helloworld**
+# 2021_1_하계_나의 첫 안드로이드 앱
 
 ## Lab0 : Hello World!!!
 Process 1                  |   
